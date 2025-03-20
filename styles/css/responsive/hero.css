@@ -1,0 +1,42 @@
+/* Estilização para tablets */
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+    .hero-section {
+        height: 820px;
+        background: url('/assets/backgrounds/png/Grupo\ 52.png');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 0px 120px 0px 120px;
+    }
+
+    .hero-section__icon {
+        display: none;
+    }
+
+    .hero-section__content {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .hero-section__content h1 {
+        font-size: 90px;  
+        font-weight: 400;
+    }
+    
+    .hero-section__content p {
+        font-size: 36px;
+    }
+
+    .hero-section__logo {
+        justify-content: space-between;
+    }
+
+    .hero-section__arrow {
+        display: inherit;
+    }
+}

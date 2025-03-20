@@ -1,0 +1,25 @@
+/* Estilização para tablets */
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+    .header {
+        padding: 0px 120px 0px 120px;
+    }
+    .header__logo {
+        display: inherit;
+    }
+
+    .header-navigation__icon {
+        display: none !important;
+    }
+
+    .header-navigation__links {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 71px;
+        color: white;
+    }
+}
