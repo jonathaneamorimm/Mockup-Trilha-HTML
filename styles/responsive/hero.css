@@ -4,7 +4,7 @@
 }
 
 @media (min-width: 1024px) {
-    .hero-section {
+    .main-hero {
         height: 820px;
         background: url('/assets/backgrounds/png/Grupo\ 52.png');
         background-position: top;
@@ -14,29 +14,29 @@
         padding: 0px 120px 0px 120px;
     }
 
-    .hero-section__icon {
+    .main-hero__icon {
         display: none;
     }
 
-    .hero-section__content {
+    .main-hero__content {
         width: 100%;
         align-items: flex-start;
     }
 
-    .hero-section__content h1 {
+    .main-hero__content h1 {
         font-size: 90px;  
         font-weight: 400;
     }
     
-    .hero-section__content p {
+    .main-hero__content p {
         font-size: 36px;
     }
 
-    .hero-section__logo {
+    .main-hero__logo {
         justify-content: space-between;
     }
 
-    .hero-section__arrow {
+    .main-hero__arrow {
         display: inherit;
     }
 }

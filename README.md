@@ -20,3 +20,6 @@
   
 ## Informações sobre versionamento
 - O versionamento será realizado em partes, onde cada seção terá um commit unico (isso não inclui nav ou algo relacionado). O versionamento será realizado utilizando a estrutura de branchs com os padrões de commit.
+
+## Anotações 
+- Evitar usar o `!important`, ao invés disso, optar por aumentar a especificidade do elemento para que possua prioridade.

@@ -1,4 +1,4 @@
-.hero-section {
+.main-hero {
     height: 650px;
     background: url('/assets/backgrounds/png/Grupo\ 52.png');
     background-position: center;
@@ -14,7 +14,7 @@
     flex-direction: column;
 }
 
-.hero-section__content {
+.main-hero__content {
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -23,20 +23,20 @@
     gap: 50px;
 }
 
-.hero-section__content h1 {
+.main-hero__content h1 {
     color: #FFFFFF;
     font-size: 46px;  
     font-weight: 400;
 }
 
-.hero-section__content p {
+.main-hero__content p {
     font-size: 26px;
     color: #FFFFFF;
     text-align: center;
     font-weight: 100;
 }
 
-.hero-section__content button {
+.main-hero__content button {
     width: 188px;
     height: 52px;
     color: #FFFFFF;
@@ -45,7 +45,7 @@
     border: none;
 }
 
-.hero-section__logo {
+.main-hero__logo {
     display: flex;
     align-items: center;
     justify-content: center;

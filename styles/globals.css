@@ -1,0 +1,18 @@
+/* importação de estilos padrão (Mobile First) */
+@import url('/styles/components/header.css');
+@import url('/styles/components/hero.css');
+
+/* importação de estilos aplicando responsividade */
+@import url('/styles/responsive/header.css');
+@import url('/styles/responsive/hero.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
