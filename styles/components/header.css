@@ -31,7 +31,7 @@ header {
     flex-direction: column;
 }
 .header-navigation__icon-line {
-    height: 10%;
+    height: 2px;
     width: 100%;
     background-color: #FFFFFF;
 }
