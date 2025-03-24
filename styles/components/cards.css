@@ -1,0 +1,150 @@
+.main-cards__intro {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    align-items: center;
+    text-align: center;
+    padding: 0px 18px 0 18px;
+    margin:  0 0 27px 0;
+
+    & h2 {
+        text-align: center;
+        color: var(--text-light-blue);
+        font-size: 24px;
+        
+    }
+
+    & p {
+        color: var(--text-grey);
+        font-size: 16px;
+    }
+    
+}
+.main-cards__group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-cards__card {
+    display: flex;
+    margin: 0 18px 0 18px;
+    height: 124px;
+    align-items: center;
+    color: var(--white);
+    padding-right: 16px;
+
+    &:nth-child(1) {
+        background: #0072C6;
+    }
+
+    &:nth-child(2) {
+        background: #2C5898;
+    }
+
+    &:nth-child(3) {
+        background: #207245;
+    }
+
+    &:nth-child(4) {
+        background: #CB4A32;
+    }
+
+    &:nth-child(5) {
+        background: #733781;
+    }
+
+    &:nth-child(6) {
+        background: #00AFF0;
+    }
+
+    &:nth-child(7) {
+        background: #094AB2;
+    }
+
+    &:nth-child(8) {
+        background: #0073C6;
+    }
+
+    &:nth-child(9) {
+        background: #0093BE;
+    }
+
+    &:nth-child(10) {
+        background: #5558AF;
+    }
+}
+
+.main-cards__icon {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main-cards__card-text {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    & h1 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    & p {
+        font-size: 12px;
+    }
+    
+}
+
+/* Estilização para tablets */
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+    .main-cards__group {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-cards__card {
+        width: 40%;
+        height: 120px;
+        padding-right: 25px;
+    }
+
+    .main-cards__card-text {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    
+        & h1 {
+            font-size: 20px;
+            font-weight: 400;
+        }
+    
+        & p {
+            font-size: 16px;
+        }
+        
+    }
+
+    .main-cards__intro {
+        & h2 {
+            text-align: center;
+            font-size: 40px;
+            font-weight: 400;
+        }    
+        & p {
+            font-size: 20px;
+        }
+    }
+}
