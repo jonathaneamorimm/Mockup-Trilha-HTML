@@ -5,6 +5,7 @@
 @import url('/styles/components/cards.css');
 @import url('/styles/components/values.css');
 @import url('/styles/components/warning.css');
+@import url('/styles/components/message.css');
 
 * {
     margin: 0;
