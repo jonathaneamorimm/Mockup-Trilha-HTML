@@ -1,9 +1,9 @@
 header {
     width: 100%;
-    height: 80px;
-    background: #2571b7 0% 0% no-repeat padding-box;
-    position: sticky;
-
+    height: var(--header-size);
+    background: var(--text-light-blue) 0% 0% no-repeat padding-box;
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,14 +33,46 @@ header {
 .header-navigation__icon-line {
     height: 2px;
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: var(--white);
 }
 
 .header__button {
     width: 150px;
     height: 35px;
     font-size: 18px;
-    background: #002050;
-    color: #FFFFFF;
+    background: var(--dark-blue);
+    color: var(--white);
     border: none;
+}
+
+/* Estilização para tablets */
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1024px) {
+    .header {
+        padding: 0px 120px 0px 120px;
+    }
+    .header__logo {
+        display: inherit;
+    }
+
+    div.header-navigation__icon {
+        display: none;
+    }
+
+    .header-navigation__links {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 71px;
+        color: var(--white);
+    }
+
+    div.header-content {
+        display: flex; 
+        justify-content: flex-end;
+        gap: 106px;
+    }
 }

@@ -1,5 +1,3 @@
-# Criação de uma Landing Page presente no link:
-
 ## Coleta de informações 
 - Desenvolvimento da página estática  sem funcionalidades. Ao final do projeto o estagiário será capaz de desenvolver páginas Web estáticas com uma organização e aplicação de padrões de projeto. Segue link do mockup:
   - [Link do Mockup](https://xd.adobe.com/view/de4ad55e-606e-45a1-8c9e-7a5500198ae0-8b19/grid/)  
@@ -17,9 +15,7 @@
 - Requisitos não obrigatorios: (bom fazer)
   - Utilizar a metodologia BEM para nomenclatura das classes.
   - Boas práticas de SEO
-  
-## Informações sobre versionamento
-- O versionamento será realizado em partes, onde cada seção terá um commit unico (isso não inclui nav ou algo relacionado). O versionamento será realizado utilizando a estrutura de branchs com os padrões de commit.
 
 ## Anotações 
 - Evitar usar o `!important`, ao invés disso, optar por aumentar a especificidade do elemento para que possua prioridade.
+- Emmet para gerar os cards: `article*10.main-cards__card>img:s+div>h1{Lorem Ipsum}/p{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}`
