@@ -1,0 +1,46 @@
+.main-warning {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    padding: 0 18px 0 18px;
+    margin: 60px 0 0 0;
+}
+
+.main-warning__title {
+    height: 68px;
+    display: flex;
+    justify-content: center;
+
+    & h2 {
+        color: var(--text-light-blue);
+        font-size: 24px;
+    }
+}
+
+.main-warning__group-item {
+    border: 3px solid #DEDEDE;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 30px 24px 30px 24px;
+
+    & h2 {
+        font-size: 15px;
+        color: #F25022;
+        font-weight: 500;
+    }
+
+    & p {
+        font-size: 12px;
+        color: var(--text-grey);
+    }
+
+    /* Todas as bordas que não forem a ultima vão receber o valor 0 */
+    &:not(:last-child) {
+        border-bottom: 0;
+    }
+}

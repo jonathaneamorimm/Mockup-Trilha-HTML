@@ -4,6 +4,7 @@
 @import url('/styles/components/resume.css');
 @import url('/styles/components/cards.css');
 @import url('/styles/components/values.css');
+@import url('/styles/components/warning.css');
 
 * {
     margin: 0;
