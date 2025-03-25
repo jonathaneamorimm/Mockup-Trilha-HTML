@@ -1,5 +1,7 @@
 .main-cards {
     margin: 0 0 60px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .main-cards__intro {
@@ -8,7 +10,6 @@
     gap: 27px;
     align-items: center;
     text-align: center;
-    padding: 0px 18px 0 18px;
     margin:  0 0 27px 0;
 
     & h2 {
@@ -33,7 +34,6 @@
 
 .main-cards__card {
     display: flex;
-    margin: 0 18px 0 18px;
     height: 124px;
     align-items: center;
     color: var(--white);
@@ -116,11 +116,11 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .main-cards__card {
-        width: 40%;
+        width: 48%;
         height: 120px;
         padding-right: 25px;
     }

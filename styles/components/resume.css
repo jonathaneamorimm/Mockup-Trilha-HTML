@@ -1,12 +1,14 @@
 .main-resume {
-    width: 100%;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-resume p {
     font-size: 16px;
     color: var(--text-grey);
-    margin: 60px 18px 33px 18px;
+    margin: 60px 0 33px 0;
 }
 
 /* Estilização para tablets */
@@ -17,7 +19,7 @@
 @media (min-width: 1024px) {
     .main-resume p {
         font-size: 20px;
-        margin: 96px 120px 96px 120px;
+        margin: 96px 0 96px 0;
     }
     
     .main-resume span{
