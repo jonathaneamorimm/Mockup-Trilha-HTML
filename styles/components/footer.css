@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0 0 0;
+    padding: 0 18px 24px 18px;
+    gap: 17px;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer__copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    & p {
+        color: #B4B4B4;
+        font-size: 12px;
+    }
+}
