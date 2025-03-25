@@ -52,9 +52,11 @@
         border: none;
 
         &:hover {
-            transition: 0.8s;
-            background: var(--dark-blue);
             border: 1px solid white;
+            background: rgb(0, 183, 228);
+            transition: 0.2s;
+            cursor: pointer;
+            border-radius: 8px;
         }
     }
 
