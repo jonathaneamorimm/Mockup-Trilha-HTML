@@ -1,30 +1,23 @@
 .main-resume {
-    text-align: center;
     display: flex;
-    align-items: center;
     justify-content: center;
+    margin: 60px 0 33px 0;
 }
 
 .main-resume p {
     font-size: 16px;
     color: var(--text-grey);
-    margin: 60px 0 33px 0;
-}
-
-/* Estilização para tablets */
-@media (min-width: 768px) {
-
+    text-align: center;
 }
 
 @media (min-width: 1024px) {
-    .main-resume p {
-        font-size: 20px;
+    .main-resume {
         margin: 96px 0 96px 0;
     }
-    
+    .main-resume p {
+        font-size: 20px;
+    }
     .main-resume span{
-        text-align: center;
-        letter-spacing: 0px;
-        color: #F25022;
+        color: var(--red-alert);
     }
 }

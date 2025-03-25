@@ -29,38 +29,34 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-
-    & h1 {
-        color: var(--white);
-        font-size: 46px;  
-        font-weight: 400;
-    }
-
-    & p {
-        font-size: 26px;
-        color: #FFFFFF;
-        text-align: center;
-        font-weight: 100;
-    }
-
-    & button {
-        width: 188px;
-        height: 52px;
-        color: var(--white);
-        background-color: #00A4EF;
-        font-size: 22px;
-        border: none;
-
-        &:hover {
-            border: 1px solid white;
-            background: rgb(0, 183, 228);
-            transition: 0.2s;
-            cursor: pointer;
-            border-radius: 8px;
-        }
-    }
-
 }
+.main-hero__content h1 {
+    color: var(--white);
+    font-size: 46px;
+    font-weight: 400;
+}
+.main-hero__content p {
+    font-size: 26px;
+    color: var(--white);
+    text-align: center;
+    font-weight: 100;
+}
+.main-hero__content button {
+    width: 188px;
+    height: 52px;
+    color: var(--white);
+    background-color: var(--btn-light-blue);
+    font-size: 22px;
+    border: none;
+}
+.main-hero__content button:hover {
+    border: 1px solid var(--white);
+    background: #00b7e4;
+    transition: 0.2s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
 
 .main-hero__logo {
     display: flex;
@@ -70,42 +66,30 @@
     width: 100%;
 }
 
-/* Estilização para tablets */
-@media (min-width: 768px) {
-
-} 
-
 @media (min-width: 1024px) {
     .main-hero {
         height: 820px;
         background: url('/assets/backgrounds/hero/Grupo\ 52.png') top no-repeat ;
         background-size: cover;
-        width: 100%;
     }
-
     .main-hero__icon {
         display: none;
     }
-
     .main-hero__content {
         width: 100%;
         align-items: flex-start;
-    
-        & h1 {
-            font-size: 90px;  
-            font-weight: 400;
-        }
-        
-        & p {
-            font-size: 36px;
-        }
-    }
-
+   }
+    .main-hero__content h1 {
+        font-size: 90px;
+        font-weight: 400;
+   }
+    .main-hero__content p {
+        font-size: 36px;
+   }
     .main-hero__logo {
         justify-content: space-between;
     }
-
-    .main-hero__arrow {
+    .main-hero__arrow { /* Exibe a seta para baixo */
         display: inherit;
     }
 }
