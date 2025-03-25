@@ -3,94 +3,114 @@
     justify-content: center;
 }
 
+/* <Inicio> Titulo da seção de Valores */
 .main-values__title {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    & h2 {
-        font-size: 24px;
-        padding: 0 0 27px 0;
-        font-weight: 400;
-        color: var(--text-light-blue);
-    }
 }
+
+.main-values__title h2 {
+    font-size: 24px;
+    padding: 0 0 27px 0;
+    font-weight: 400;
+    color: var(--text-light-blue);
+}
+/* <Fim> Titulo da seção de Valores */
+
 
 .main-values__group {
     display: flex;
     flex-direction: column;
     gap: 21px;
+}
 
-    & hr {
-        height: 3px;
-        background-color: #DEDEDE;
-        border: none;
-    }
-    
-    & article {
-        display: flex;
-        
-        & h1 {
-            font-size: 15px;
-        }
+.main-values__group hr {
+    height: 3px;
+    background-color: #DEDEDE;
+    border: none;
+}
 
-        & p {
-            font-size: 12px;
-            color: var(--text-grey);
-        }
+.main-values__group article {
+    display: flex;
+}
 
-        & button {
-             width: 100px;
-             height: 30px;
-             background: transparent;
-             padding: 7px 6px 7px 6px;
-             font: 12px;
-        }
-        
-        &:nth-of-type(1) {
-            & h1 {
-                color: #7FBA00;
-            }
+.main-values__group article h1 {
+    font-size: 15px;
+}
 
-            & button {
-                color: #7FBA00;
-                border: 1px solid #7FBA00;
-            }
-        }
+.main-values__group article p {
+    font-size: 12px;
+    color: var(--text-grey);
+}
+.main-values__group article button {
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    padding: 7px 6px 7px 6px;
+    font-size: 12px;
+}
 
-        &:nth-of-type(2) {
-            & h1 {
-                color: #00A4EF;
-            }
+/* <Inicio> Valor 1 */
+.main-values__group article:nth-of-type(1) h1 {
+    color: #7fba00;
+}
+.main-values__group article:nth-of-type(1) button {
+    color: #7fba00;
+    border: 1px solid #7fba00;
+}
+.main-values__group article:nth-of-type(1) button:hover {
+    background: #7fba00;
+    transition: 0.2s;
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+}
+/* <Fim> Valor 1 */
 
-            & button {
-                color: #00A4EF;
-                border: 1px solid #00A4EF;
-            }
-        }
 
-        &:nth-of-type(3) {
-            & h1 {
-                color: #FFB900;
-            }
+/* <Inicio> Valor 2 */
+.main-values__group article:nth-of-type(2) h1 {
+    color: #00a4ef;
+}
+.main-values__group article:nth-of-type(2) button {
+    color: #00a4ef;
+    border: 1px solid #00a4ef;
+}
+.main-values__group article:nth-of-type(2) button:hover {
+    background: #00a4ef;
+    transition: 0.2s;
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+}
+/* <Fim> Valor 2 */
 
-            & button {
-                color: #FFB900;
-                border: 1px solid #FFB900;
-            }
-        }
-    }
+/* <Inicio> Valor 3 */
+.main-values__group article:nth-of-type(3) h1 {
+    color: #ffb900;
+}
+.main-values__group article:nth-of-type(3) button {
+    color: #ffb900;
+    border: 1px solid #ffb900;
+}
+.main-values__group article:nth-of-type(3) button:hover {
+    background: #ffb900;
+    transition: 0.2s;
+    cursor: pointer;
+    color: white;
+    border-radius: 6px;
+}
+/* <Fim> Valor 3 */
 
-    & div:first-child {
-        width: 75%;
-    }
-
-    & div:last-child {
-        width: 25%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+.main-values__group div:first-child {
+    width: 75%;
+}
+.main-values__group div:last-child {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-values__text-item {
@@ -120,10 +140,10 @@
 
     .main-values__title {
         margin-bottom: 48px;
-    
-        & h2 {
-            font-size: 40px;
-        }
+    }
+
+    .main-values__title h2 {
+        font-size: 40px;
     }
 
     .main-values__group {

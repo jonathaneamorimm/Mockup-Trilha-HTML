@@ -44,6 +44,19 @@
     border: none;
 }
 
+.header__button:hover {
+    background: #00A4EF;
+    transition: 0.2s;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.header-navigation__linkitem:hover {
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
 /* Estilização para tablets */
 @media (min-width: 768px) {
 
