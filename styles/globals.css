@@ -7,6 +7,7 @@
 @import url('/styles/components/warning.css');
 @import url('/styles/components/message.css');
 @import url('/styles/components/form.css');
+@import url('/styles/components/footer.css');
 
 * {
     margin: 0;

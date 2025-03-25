@@ -46,12 +46,10 @@
 
             transition: 0.2s;
 
-            /* Ver como deixar o label colorido também */
-
             &:focus{
                 border: 2px solid var(--text-light-blue);
             }
-        }
+        }        
     }
 
     & button {
