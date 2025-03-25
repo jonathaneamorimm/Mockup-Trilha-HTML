@@ -1,13 +1,12 @@
-header {
+.header {
     width: 100%;
     height: var(--header-size);
     background: var(--text-light-blue) 0% 0% no-repeat padding-box;
     position: fixed;
     top: 0;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0px 18px 0px 18px;
+    justify-content: center;
 }
 
 .header-content {
@@ -51,8 +50,9 @@ header {
 }
 
 @media (min-width: 1024px) {
-    .header {
-        padding: 0px 120px 0px 120px;
+    .header .conteiner {
+        display: flex;
+        align-items: center;
     }
     .header__logo {
         display: inherit;

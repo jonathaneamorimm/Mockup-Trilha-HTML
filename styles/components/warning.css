@@ -1,9 +1,13 @@
 .main-warning {
     display: flex;
+    justify-content: center;
+    margin: 60px 0 0 0;
+}
+
+.main-warning .conteiner {
+    display: flex;
     flex-direction: column;
     gap: 33px;
-    padding: 0 18px 0 18px;
-    margin: 60px 0 0 0;
 }
 
 .main-warning__title {
@@ -19,7 +23,6 @@
 
 .main-warning__group-item {
     border: 3px solid #DEDEDE;
-    height: 150px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -43,4 +46,47 @@
     &:not(:last-child) {
         border-bottom: 0;
     }
+}
+
+
+/* Estilização para tablets */
+@media (min-width: 768px) {
+
+} 
+
+@media (min-width: 1024px) {
+    .main-warning__group {
+        display: flex;
+    }
+
+    .main-warning__group-item {
+
+        padding: 40px 35px 40px 35px;
+
+        /* devolve as bordas */
+        &:not(:last-child) {
+            border-bottom: 3px solid #DEDEDE;
+        }
+
+        /* remove as bordas da direita exceto a ultima */
+        &:not(:last-child) {
+            border-right: 0;
+        }
+
+        & h2 {
+            font-size: 20px;
+        }
+
+        & p {
+            font-size: 16px;
+        }
+    }
+
+    .main-warning__title {    
+        & h2 {
+            font-size: 40px;
+            font-weight: 400;
+        }
+    }
+    
 }
