@@ -1,24 +1,23 @@
+/* Bloco principal dos valores */
 .main-values {
     display: flex;
     justify-content: center;
 }
 
-/* <Inicio> Titulo da seção de Valores */
+/* Titulo da seção de Valores */
 .main-values__title {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .main-values__title h2 {
     font-size: 24px;
-    padding: 0 0 27px 0;
+    padding-bottom: 27px;
     font-weight: 400;
     color: var(--text-light-blue);
 }
-/* <Fim> Titulo da seção de Valores */
 
-
+/* Grupo da seção de valores */
 .main-values__group {
     display: flex;
     flex-direction: column;
@@ -31,14 +30,14 @@
     border: none;
 }
 
+/* Bloco de valor. Seletor geral */
 .main-values__group article {
     display: flex;
 }
-
 .main-values__group article h1 {
     font-size: 15px;
+    font-weight: 400;
 }
-
 .main-values__group article p {
     font-size: 12px;
     color: var(--text-grey);
@@ -50,8 +49,17 @@
     padding: 7px 6px 7px 6px;
     font-size: 12px;
 }
+.main-values__group div:first-child { /* Texto do bloco de valor */
+    width: 75%;
+}
+.main-values__group div:last-child { /* Imagem do bloco de valor  */
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-/* <Inicio> Valor 1 */
+/* Valor 1 */
 .main-values__group article:nth-of-type(1) h1 {
     color: #7fba00;
 }
@@ -66,25 +74,22 @@
     color: white;
     border-radius: 6px;
 }
-/* <Fim> Valor 1 */
 
-
-/* <Inicio> Valor 2 */
+/* Valor 2 */
 .main-values__group article:nth-of-type(2) h1 {
-    color: #00a4ef;
+    color: var(--btn-light-blue);
 }
 .main-values__group article:nth-of-type(2) button {
-    color: #00a4ef;
-    border: 1px solid #00a4ef;
+    color: var(--btn-light-blue);
+    border: 1px solid var(--btn-light-blue);
 }
 .main-values__group article:nth-of-type(2) button:hover {
-    background: #00a4ef;
+    background: var(--btn-light-blue);
     transition: 0.2s;
     cursor: pointer;
     color: white;
     border-radius: 6px;
 }
-/* <Fim> Valor 2 */
 
 /* <Inicio> Valor 3 */
 .main-values__group article:nth-of-type(3) h1 {
@@ -101,47 +106,28 @@
     color: white;
     border-radius: 6px;
 }
-/* <Fim> Valor 3 */
-
-.main-values__group div:first-child {
-    width: 75%;
-}
-.main-values__group div:last-child {
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .main-values__text-item {
     display: flex;
     flex-direction: column;
     gap: 18px;
-
-    & span {
-        height: 4px;
-        background: #DEDEDE;
-        border: none;
-        width: 53px;
-    }
+}
+.main-values__text-item span {
+    height: 4px;
+    background: #DEDEDE;
+    border: none;
+    width: 53px;
 }
 
-
-/* Estilização para tablets */
-@media (min-width: 768px) {
-
-} 
-
 @media (min-width: 1024px) {
-
     .main-values {
         margin-top: 96px;
     }
 
+    /* Titulo da seção de valores */
     .main-values__title {
         margin-bottom: 48px;
     }
-
     .main-values__title h2 {
         font-size: 40px;
     }
@@ -149,48 +135,41 @@
     .main-values__group {
         flex-direction: row;
         justify-content: space-between;
+   }
+    .main-values__group article {
+        height: 413px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 28%;
+        gap: 20px;
+   }
 
-        & article {
-            height: 413px;
-            flex-direction: column-reverse;
-            align-items: center;
-            justify-content: center;
-            width: 28%;
-            gap: 20px;
+   /* Texto do bloco de valores */
+    .main-values__group article div:first-child {
+        height: 60%;
+        width: 100%;
+        align-items: center;
+   }
+    .main-values__group article div:first-child h1 {
+        font-size: 20px;
+   }
+    .main-values__group article div:first-child p {
+        font-size: 16px;
+        text-align: center;
+   }
+    .main-values__group article div:first-child button {
+        width: 110px;
+        height: 41px;
+        font-size: 16px;
+        border: 3px solid;
+   }
 
-            & div {
-
-                &:first-child {
-                    height: 60%;
-                    width: 100%;
-                    align-items: center;
-
-                    & h1 {
-                        font-size: 20px;
-                    }
-
-                    & p {
-                        font-size: 16px;
-                        text-align: center;
-                    }
-
-                    & button {
-                        width: 110px;
-                        height: 41px;
-                        font-size: 16px;
-                        border: 3px solid;
-                    }
-
-                }
-
-                &:last-child {
-                    width: 100%;
-
-                    & img {
-                        width: 160px;
-                    }
-                }
-            }
-        }
-    }
+   /* Bloco de imagem do bloco de valores */
+    .main-values__group article div:last-child {
+        width: 100%;
+   }
+    .main-values__group article div:last-child img {
+        width: 160px;
+   }
 }

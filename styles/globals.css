@@ -1,13 +1,13 @@
 /* importação de estilos padrão (Mobile First) */
-@import url('components/header.css');
-@import url('components/hero.css');
-@import url('components/resume.css');
-@import url('components/cards.css');
-@import url('components/values.css');
-@import url('components/warning.css');
-@import url('components/message.css');
-@import url('components/form.css');
-@import url('components/footer.css');
+@import url('./components/header.css');
+@import url('./components/hero.css');
+@import url('./components/resume.css');
+@import url('./components/cards.css');
+@import url('./components/values.css');
+@import url('./components/warning.css');
+@import url('./components/message.css');
+@import url('./components/form.css');
+@import url('./components/footer.css');
 
 * {
     margin: 0;
@@ -18,10 +18,10 @@
     --white: #FFFFFF;
     --text-light-blue: #2571B7;
     --btn-light-blue: #00A4EF;
-
     --text-grey: #737373;
     --dark-blue: #002050;
-    --header-size: 80px;
+    --red-alert: #F25022;
+    --header-size: 80px; 
 }
 
 html, 
