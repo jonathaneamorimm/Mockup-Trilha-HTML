@@ -34,7 +34,7 @@
 .main-values__group article {
     display: flex;
 }
-.main-values__group article h1 {
+.main-values__group article h3 {
     font-size: 15px;
     font-weight: 400;
 }
@@ -64,7 +64,7 @@
 }
 
 /* Valor 1 */
-.main-values__group article:nth-of-type(1) h1 {
+.main-values__group article:nth-of-type(1) h3 {
     color: #7fba00;
 }
 .main-values__group article:nth-of-type(1) button {
@@ -80,7 +80,7 @@
 }
 
 /* Valor 2 */
-.main-values__group article:nth-of-type(2) h1 {
+.main-values__group article:nth-of-type(2) h3 {
     color: var(--btn-light-blue);
 }
 .main-values__group article:nth-of-type(2) button {
@@ -96,7 +96,7 @@
 }
 
 /* <Inicio> Valor 3 */
-.main-values__group article:nth-of-type(3) h1 {
+.main-values__group article:nth-of-type(3) h3 {
     color: #ffb900;
 }
 .main-values__group article:nth-of-type(3) button {
@@ -155,7 +155,7 @@
         width: 100%;
         align-items: center;
    }
-    .main-values__group article div:first-child h1 {
+    .main-values__group article div:first-child h3 {
         font-size: 20px;
    }
     .main-values__group article div:first-child p {

@@ -21,6 +21,11 @@
 - Emmet para gerar os cards: `article*10.main-cards__card>img:s+div>h1{Lorem Ipsum}/p{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}`.
 - A orientação foi ajustada para a proporção 1920x1080.
 
+## Acessibilidade
+- Uso do ALT em imagens: Isso permite que a imagem possua um texto que caso ela não seja renderizada será exibida ou será lida por leitores de tela
+- Uso do aria-label em elementos pouco descritivos: Utilizado em elementos para serem lidos pelos leitores de tela
+- Uso do aria-hidden: Ocuta elementos unicamente visuais para leitores de tela.
+- Uso do title: Definir o titlo das imagens
 
 ## Teste
 - Navegadores: Google Chrome e Mozila Firefox.

@@ -100,7 +100,7 @@
     gap: 6px;
 }
 
-.main-cards__card-text h1 {
+.main-cards__card-text h3 {
     font-size: 18px;
     font-weight: 400;
 }
@@ -126,7 +126,7 @@
         flex-direction: column;
         gap: 6px;
     }
-    .main-cards__card-text h1 {
+    .main-cards__card-text h3 {
         font-size: 20px;
         font-weight: 400;
     }
