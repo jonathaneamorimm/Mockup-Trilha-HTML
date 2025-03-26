@@ -89,7 +89,7 @@
     .main-hero__logo {
         justify-content: space-between;
     }
-    .main-hero__arrow { /* Exibe a seta para baixo */
+    .main-hero__arrow { 
         display: inherit;
     }
 }

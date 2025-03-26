@@ -8,8 +8,6 @@
     align-items: center;
     justify-content: center;
 }
-
-/* Links de navegação e botoes do header */
 .header-content {
     display: flex; 
     align-items: center;
@@ -48,9 +46,15 @@
     cursor: pointer;
     border-radius: 8px;
 }
-.header-navigation__linkitem:hover {
+
+.header-navigation__linkitem a{
+    text-decoration: none;
+    padding: 10px 10px 5px 10px;
+    color: var(--white);
+}
+
+.header-navigation__linkitem a:hover {
     border-bottom: 2px solid var(--white);
-    cursor: pointer;
 }
 
 @media (min-width: 1024px) {

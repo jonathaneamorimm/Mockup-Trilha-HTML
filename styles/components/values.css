@@ -1,10 +1,7 @@
-/* Bloco principal dos valores */
 .main-values {
     display: flex;
     justify-content: center;
 }
-
-/* Titulo da seção de Valores */
 .main-values__title {
     display: flex;
     align-items: center;
@@ -17,20 +14,16 @@
     color: var(--text-light-blue);
 }
 
-/* Grupo da seção de valores */
 .main-values__group {
     display: flex;
     flex-direction: column;
     gap: 21px;
 }
-
 .main-values__group hr {
     height: 3px;
     background-color: #DEDEDE;
     border: none;
 }
-
-/* Bloco de valor. Seletor geral */
 .main-values__group article {
     display: flex;
 }
@@ -51,19 +44,18 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
-    width: fit-content; /* Define que o botão será do tamanho do conteudo interno */
+    width: fit-content; 
 }
-.main-values__group div:first-child { /* Texto do bloco de valor */
+.main-values__group div:first-child { 
     width: 75%;
 }
-.main-values__group div:last-child { /* Imagem do bloco de valor  */
+.main-values__group div:last-child { 
     width: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* Valor 1 */
 .main-values__group article:nth-of-type(1) h3 {
     color: #7fba00;
 }
@@ -79,7 +71,6 @@
     border-radius: 6px;
 }
 
-/* Valor 2 */
 .main-values__group article:nth-of-type(2) h3 {
     color: var(--btn-light-blue);
 }
@@ -95,7 +86,6 @@
     border-radius: 6px;
 }
 
-/* <Inicio> Valor 3 */
 .main-values__group article:nth-of-type(3) h3 {
     color: #ffb900;
 }
@@ -127,8 +117,6 @@
     .main-values {
         margin-top: 96px;
     }
-
-    /* Titulo da seção de valores */
     .main-values__title {
         margin-bottom: 48px;
     }
@@ -149,7 +137,6 @@
         gap: 20px;
    }
 
-   /* Texto do bloco de valores */
     .main-values__group article div:first-child {
         height: 60%;
         width: 100%;
@@ -167,8 +154,6 @@
         font-size: 16px;
         border: 3px solid;
    }
-
-   /* Bloco de imagem do bloco de valores */
     .main-values__group article div:last-child {
         width: 100%;
    }

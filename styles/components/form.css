@@ -42,10 +42,10 @@
     color: var(--text-grey);
     transition: 0.2s;
 }
-.main-form__form div input:focus { /* Quando o input for focado ele terá uma borda azul */
+.main-form__form div input:focus { 
     border: 2px solid var(--text-light-blue);
 }
-.main-form__form div input:focus + label { /* Quando o input for focado, o label desse input também estilizado */
+.main-form__form div input:focus + label {
     color: var(--text-light-blue);
 }
 
@@ -58,7 +58,6 @@
     gap: 27px;
 }
 
-/* Estilização do botão submit do formulário */
 .main-form__form button {
     background: var(--btn-light-blue);
     border: none;

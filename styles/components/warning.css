@@ -3,14 +3,11 @@
     justify-content: center;
     margin-top: 60px;
 }
-
 .main-warning .conteiner {
     display: flex;
     flex-direction: column;
     gap: 33px;
 }
-
-/* Texto do titulo da seção */
 .main-warning__title {
     height: 68px;
     display: flex;
@@ -44,7 +41,6 @@
     text-align: center;
 }
 
-/* Todas as bordas que não forem a ultima vão receber o valor 0 */
 .main-warning__group-item:not(:last-child) {
     border-bottom: 0;
 }
@@ -56,10 +52,10 @@
     .main-warning__group-item {
         padding: 40px 35px 40px 35px;
     }
-    .main-warning__group-item:not(:last-child) { /* remove as bordas da direita exceto a ultima */
+    .main-warning__group-item:not(:last-child) {
         border-bottom: 3px solid #DEDEDE;
     }
-    .main-warning__group-item:not(:last-child) { /* remove as bordas da direita exceto a ultima */
+    .main-warning__group-item:not(:last-child) {
         border-right: 0;
     }
     .main-warning__group-item h3 {

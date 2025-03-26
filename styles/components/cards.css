@@ -24,16 +24,12 @@
     font-size: 16px;
     text-align: center;
 }
-
-/* Elemento onde todos os cards estão inseridos */
 .main-cards__group {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 15px;
 }
-
-/* Todos os cards no geral */
 .main-cards__card {
     display: flex;
     height: 124px;
@@ -41,8 +37,6 @@
     color: var(--white);
     padding-right: 16px;
 }
-
-/* Cores dos cards isolados */
 .main-cards__card:nth-child(1) {
     background: #0072c6;
 }
@@ -82,8 +76,6 @@
 .main-cards__card:nth-child(10) {
     background: #5558af;
 }
-
-/* Todos os icones de dentro dos cards */
 .main-cards__icon {
     width: 25%;
     height: 100%;
@@ -91,8 +83,6 @@
     align-items: center;
     justify-content: center;
 }
-
-/* Texto de todos os cards */
 .main-cards__card-text {
     width: 75%;
     display: flex;
