@@ -12,10 +12,16 @@
   - Responsividade 
   - Clean Code 
 
-- Requisitos não obrigatorios: (bom fazer)
+- Requisitos não obrigatorios:
   - Utilizar a metodologia BEM para nomenclatura das classes.
   - Boas práticas de SEO
 
 ## Anotações 
 - Evitar usar o `!important`, ao invés disso, optar por aumentar a especificidade do elemento para que possua prioridade.
-- Emmet para gerar os cards: `article*10.main-cards__card>img:s+div>h1{Lorem Ipsum}/p{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}`
+- Emmet para gerar os cards: `article*10.main-cards__card>img:s+div>h1{Lorem Ipsum}/p{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua}`.
+- A orientação foi ajustada para a proporção 1920x1080.
+
+
+## Teste
+- Navegadores: Google Chrome e Mozila Firefox.
+- Mobile: Testado em diversos formatos de tela.
