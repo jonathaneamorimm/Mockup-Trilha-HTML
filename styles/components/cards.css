@@ -63,19 +63,24 @@
 
 .main-cards__card:nth-child(7) {
     background: #094ab2;
+    display: none;
 }
 
 .main-cards__card:nth-child(8) {
     background: #0073c6;
+    display: none;
 }
 
 .main-cards__card:nth-child(9) {
     background: #0093be;
+    display: none;
 }
 
 .main-cards__card:nth-child(10) {
     background: #5558af;
+    display: none;
 }
+
 .main-cards__icon {
     width: 25%;
     height: 100%;
@@ -130,6 +135,13 @@
     }
     .main-cards__intro p {
         font-size: 20px;
+    }
+
+    .main-cards__card:nth-child(7),
+    .main-cards__card:nth-child(8),
+    .main-cards__card:nth-child(9),
+    .main-cards__card:nth-child(10) {
+        display: inherit;
     }
 
 }
