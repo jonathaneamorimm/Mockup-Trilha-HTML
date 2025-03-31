@@ -1,6 +1,6 @@
 .main-hero {
     height: 650px;
-    background: url('/assets/backgrounds/hero/Grupo\ 52.png');
+    background: url('/assets/media/backgrounds/hero/Grupo\ 52.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -69,7 +69,7 @@
 @media (min-width: 1024px) {
     .main-hero {
         height: 820px;
-        background: url('/assets/backgrounds/hero/Grupo\ 52.png') top no-repeat ;
+        background: url('/assets/media/backgrounds/hero/Grupo\ 52.png') top no-repeat ;
         background-size: cover;
     }
     .main-hero__icon {

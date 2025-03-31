@@ -4,7 +4,7 @@ const renderCards = () => {
         <article class="main-cards__card">
             <div class="main-cards__icon">
                 <img 
-                    src="/assets/icons/Grupo de máscara 2.svg" 
+                    src="/assets/media/icons/Grupo de máscara 2.svg" 
                     alt="Icone de alvo com uma flecha no meio com o fundo branco" 
                     title="Icone de alvo"
                 />

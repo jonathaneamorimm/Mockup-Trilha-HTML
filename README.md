@@ -30,3 +30,9 @@
 ## Teste
 - Navegadores: Google Chrome e Mozila Firefox.
 - Mobile: Testado em diversos formatos de tela.
+
+
+
+## Json-server
+- Rodar a aplicação: `npx json-server database/db.json`
+- Rota utilizada: `http://localhost:3000/lorem`
