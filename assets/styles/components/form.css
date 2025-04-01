@@ -74,6 +74,10 @@
     border-radius: 8px;
 }
 
+.main-form__form div input::placeholder {
+    opacity: 0.5;
+}
+
 @media (min-width: 1024px) {
     .main-form__form {
         width: 564px;
