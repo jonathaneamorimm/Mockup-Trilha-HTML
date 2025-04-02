@@ -1,7 +1,7 @@
 import { postData } from "./api.js";
 import { validarForms } from "./methods.js";
 
-export default function setupEventListeners() {
+export default function setupEventListeners() { // Função base de iniciação de eventos
     const submitButton = document.querySelector('#submitForms');
 
     submitButton.addEventListener('click', () => {        
@@ -15,13 +15,14 @@ export default function setupEventListeners() {
 
         const fields = document.querySelectorAll('input[required]'); // Caputura todos os inputs com o atributo required
 
+        // Padrão sem estilização (se a função rodar novamente aplicará a estilização)
         fields.forEach(field => {
             field.style.borderColor = ''; 
         });
 
         let test = validarForms(data);
 
-        if(!test) {
+        if(!test) { // se o teste rodar falso, ou seja, sem erros executa o post
             postData(data)
             .then(() => {
                 alert('Inserted data!');
