@@ -3,6 +3,26 @@ import { validarForms } from "./methods.js";
 
 export default function setupEventListeners() { // Função base de iniciação de eventos
     const submitButton = document.querySelector('#submitForms');
+    const buttonMenu = document.querySelector('#buttonMenu');
+    const close_menu = document.querySelector("#close_menu");
+
+    buttonMenu.addEventListener('click', () => { 
+        const menubar = document.querySelector('#menubar');
+        let value = menubar.getAttribute("data-status"); 
+        if(value === 'close') { // Nessa função é controlado o atributo data-status para saber se está aberto ou fechado
+            menubar.classList.add('open');
+            menubar.setAttribute('data-status', 'open');
+        } else {
+            menubar.classList.remove('open');
+            menubar.setAttribute('data-status', 'close');
+        }
+    });
+
+    close_menu.addEventListener('click', () => {
+        const menubar = document.querySelector('#menubar');
+        menubar.classList.remove('open');
+        menubar.setAttribute('data-status', 'close');
+    })
 
     submitButton.addEventListener('click', () => {        
         const data = {
